@@ -1,6 +1,7 @@
   body {
     margin: 0;
     background-color: #ddd;
+    scroll-behavior: smooth;
 }
 
   nav {
@@ -43,7 +44,6 @@
     text-align: center;
     font-weight: bold;
     padding: 25px;
-    display: inline-block;
   }
   
   h3 {
@@ -58,3 +58,17 @@
   section {
     background-color: #ddd;
   }
+
+  .column {
+    float: left;
+    width: 33.333%;
+  }
+
+  .food img {
+    width: 100%;
+  }
+
+  .column-inner {
+    padding: 20px;
+  }
+  
