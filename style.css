@@ -1,0 +1,60 @@
+  body {
+    margin: 0;
+    background-color: #ddd;
+}
+
+  nav {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;  
+}
+    
+  nav ul{
+        margin: 0;
+        text-align: center;
+    }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav li a { 
+    line-height: 50px;
+    text-decoration: none;
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+    display: inline-block;
+  }
+  
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: inline-block;
+  }
+  
+  section {
+    background-color: #ddd;
+  }
